@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(48, 48, 48);
+    background: linear-gradient(90deg, rgba(48, 48, 48, 1) 20%, rgba(60, 60, 60, 1) 65%, rgba(71, 71, 71, 1) 88%);
+}
+
+.title-row {
+    height: 180px;
+    width: 630px;
+    background-color: #f9f9f9ea;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    box-shadow: 1px 1px 1px #636363;
+}
+
+.title-row img {
+    height: 100%;
+}
+
+.title-row h4,
+h5 {
+    columns: black;
+}
+
+.title h1 {
+    padding-top: 50px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+#title h1 {
+    font-family: ChillingTrickster;
+    color: #c2152f;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 3px #252525;
+    margin-top: 0;
+    margin-bottom: 5px;
+    transform: translateX(-7px);
+}
+
+#title p {
+    font-family: Arial, sans-serif;
+    color: #252525;
+    font-size: 12px;
+    letter-spacing: .7px;
+    margin: 0;
+    text-shadow: 0px 1px 1px #252525;
+}
+
+.youtube-link-container {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.youtube-icon {
+    font-size: 18px;
+    color: #ff0000;
+    margin-right: 7px;
+    padding-top: 4px;
+}
+
+.youtube-link {
+    font-family: Arial, sans-serif;
+    letter-spacing: .5px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #0866ff;
+    transition: all 0.3s ease;
+    text-shadow: 0px 1px 1px #252525;
+}
+
+.youtube-link:hover {
+    color: #ff0000;
+}
+
+
+.content {
+    width: 630px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+
+
+@font-face {
+    font-family: NewRocker;
+    src: url("./fonts/newrocker-font/Newrocker-Gy5a.ttf");
+}
+
+@font-face {
+    font-family: SlaughterOfTheDeath;
+    src: url("./fonts/slaughter-of-the-death-font/SlaughterOfTheDeathRegular-7BEVA.ttf");
+}
+
+@font-face {
+    font-family: ChillingTrickster;
+    src: url("./fonts/chilling-trickster-font/ChillingTrickster-Eavan.ttf");
+}
+
+@font-face {
+    font-family: BloodyScary;
+    src: url("./fonts//bloody-scary-font/BloodyScaryRegular-K7q8y.ttf");
+}
+
+
+.content p {
+    font-family: ChillingTrickster;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 2px;
+    padding: 5px 0px;
+}
+
+.md-font {
+    font-size: 35px;
+    font-weight: 400;
+    /* letter-spacing: 7px; */
+    line-height: 1.6;
+}
+
+.lg-font {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.burry {
+    font-family: SlaughterOfTheDeath;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+    color: #b35c22b6;
+}
+
+.down {
+    font-family: BloodyScary;
+    text-transform: capitalize;
+    font-size: 40px;
+    letter-spacing: 12px;
+    padding-left: 6px;
+    font-weight: 600;
+    color: #c2152f;
+}
+
+.killing {
+    font-family: BloodyScary;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    font-size: 40px;
+    color: #c2152f;
+}
+
+#scream {
+    font-family: SlaughterOfTheDeath;
+    color: #c2152f;
+}
