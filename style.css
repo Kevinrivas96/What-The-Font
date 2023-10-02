@@ -9,24 +9,28 @@ body {
     background-color: #f9f9f9;
 }
 
+/* This will define a gradient background color and the space we will have to work on.  */
+
 main {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(48, 48, 48);
     background: linear-gradient(90deg, rgba(48, 48, 48, 1) 20%, rgba(60, 60, 60, 1) 65%, rgba(71, 71, 71, 1) 88%);
 }
 
+/* This will be a container to place our album img and title */
+
 .title-row {
+    background-image: url("./imgs/wp2029374-galaxy-hd-wallpapers.jpg");
+    background-size: cover;
+    background-position: center;
     height: 180px;
     width: 630px;
-    background-color: #f9f9f9ea;
     margin-top: 12px;
     margin-bottom: 10px;
     display: flex;
-    box-shadow: 1px 1px 1px #636363;
 }
 
 .title-row img {
@@ -43,10 +47,12 @@ h5 {
 }
 
 #title {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 40px;
+    background-color: rgba(255, 255, 255, .15);
 }
 
 #title h1 {
@@ -62,12 +68,14 @@ h5 {
 
 #title p {
     font-family: Arial, sans-serif;
-    color: #252525;
+    color: #e0e0e0;
     font-size: 12px;
     letter-spacing: .7px;
     margin: 0;
     text-shadow: 0px 1px 1px #252525;
 }
+
+/* We will style the youtube icon and the watch video link */
 
 .youtube-link-container {
     padding-top: 10px;
@@ -87,7 +95,7 @@ h5 {
     letter-spacing: .5px;
     font-size: 13px;
     text-decoration: none;
-    color: #0866ff;
+    color: #e0e0e0;
     transition: all 0.3s ease;
     text-shadow: 0px 1px 1px #252525;
 }
@@ -97,13 +105,9 @@ h5 {
 }
 
 
-.content {
-    width: 630px;
-    margin-bottom: 20px;
-    background-color: black;
-}
 
 
+/* Defining 4 custom fonts */
 
 @font-face {
     font-family: NewRocker;
@@ -125,6 +129,13 @@ h5 {
     src: url("./fonts//bloody-scary-font/BloodyScaryRegular-K7q8y.ttf");
 }
 
+/* some general styling for our lyrics */
+
+.content {
+    width: 630px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
 
 .content p {
     font-family: ChillingTrickster;
@@ -136,6 +147,8 @@ h5 {
     padding: 5px 0px;
 }
 
+/* Create a class for medium font, to target some parts of the lyrics */
+
 .md-font {
     font-size: 35px;
     font-weight: 400;
@@ -143,12 +156,17 @@ h5 {
     line-height: 1.6;
 }
 
+/* Create a class for large font, to target some parts of the lyrics */
+
+
 .lg-font {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 5px;
 }
+
+/* Create a class to target an specific word in the lyrics */
 
 .burry {
     font-family: SlaughterOfTheDeath;
@@ -158,6 +176,8 @@ h5 {
     text-transform: capitalize;
     color: #b35c22b6;
 }
+
+/* Create a class to target an specific word in the lyrics */
 
 .down {
     font-family: BloodyScary;
@@ -169,6 +189,8 @@ h5 {
     color: #c2152f;
 }
 
+/* Create a class to target an specific word in the lyrics */
+
 .killing {
     font-family: BloodyScary;
     text-transform: capitalize;
@@ -176,6 +198,8 @@ h5 {
     font-size: 40px;
     color: #c2152f;
 }
+
+/* Create an id to target an specific word in the lyrics and give unique styling */
 
 #scream {
     font-family: SlaughterOfTheDeath;
