@@ -1,0 +1,3 @@
+This was a project from my Advanced CSS class where we put in practice the use of Typography and Custom Fonts, The goal was to create a page with the lyrics of our favourite song to transmite the emotions through the use of different Fonts and colors.
+
+Website: 
